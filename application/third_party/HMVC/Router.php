@@ -36,7 +36,9 @@
 if (!defined("BASEPATH"))
     exit("No direct script access allowed");
 
-class HMVC_Router extends CI_Router {
+require APPPATH .  'libraries/Route.php';
+
+class HMVC_Router extends Route {
 
     /**
      * Current module name
