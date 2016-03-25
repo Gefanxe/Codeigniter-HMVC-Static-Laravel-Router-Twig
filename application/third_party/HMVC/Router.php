@@ -36,7 +36,7 @@
 if (!defined("BASEPATH"))
     exit("No direct script access allowed");
 
-require APPPATH .  'libraries/Route.php';
+require APPPATH . 'third_party/Route.php';
 
 class HMVC_Router extends Route {
 
